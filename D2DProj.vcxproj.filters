@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Direct2D FW">
+      <UniqueIdentifier>{3ef06953-9965-4b18-9329-457e35849e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI FW">
+      <UniqueIdentifier>{34092998-e44d-479e-a7c6-ca216cbb16d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI FW">
+      <UniqueIdentifier>{2bb479ca-1254-4229-8214-a94fefddc3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Direct2D FW">
+      <UniqueIdentifier>{0bdf0da3-c29a-4130-a9e4-1d00dd718f3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Script1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Source Files\UI FW</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DUI.cpp">
+      <Filter>Source Files\UI FW</Filter>
+    </ClCompile>
+    <ClCompile Include="CD2DBasic.cpp">
+      <Filter>Source Files\Direct2D FW</Filter>
+    </ClCompile>
+    <ClCompile Include="CD2DBitmap.cpp">
+      <Filter>Source Files\Direct2D FW</Filter>
+    </ClCompile>
+    <ClCompile Include="CD2DCore.cpp">
+      <Filter>Source Files\Direct2D FW</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimProc.cpp">
+      <Filter>Source Files\UI FW</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseTrack.cpp">
+      <Filter>Source Files\UI FW</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Script1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CD2DBasic.h">
+      <Filter>Header Files\Direct2D FW</Filter>
+    </ClInclude>
+    <ClInclude Include="CD2DBitmap.h">
+      <Filter>Header Files\Direct2D FW</Filter>
+    </ClInclude>
+    <ClInclude Include="CD2DCore.h">
+      <Filter>Header Files\Direct2D FW</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DUI.h">
+      <Filter>Header Files\UI FW</Filter>
+    </ClInclude>
+    <ClInclude Include="ICtl.h">
+      <Filter>Header Files\UI FW</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Header Files\UI FW</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimProc.h">
+      <Filter>Header Files\UI FW</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseTrack.h">
+      <Filter>Header Files\UI FW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2DProj.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Debug\res\ra2bk24.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\ra2logoA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\titlemd_b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\titlemd_l.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\titlemd_r.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\titlemd_t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Debug\res\yrlogoA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
